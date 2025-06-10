@@ -20,10 +20,11 @@ for i in range(2):
 
    
     students.append(student)
+    print(students)
 
 
 print("\n------ All Student Registrations ------")
-for i in range(5):
+for i in range(2):
     print(f"\nStudent {i+1}: ")
     print("ID:", students[i]["id"])
     print("Name:", students[i]["name"].title())
